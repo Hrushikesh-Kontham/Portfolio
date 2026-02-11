@@ -4,9 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/Portfolio/" : "/", 
+  base: "/",
   server: {
-    port: 5173, 
+    port: 5173,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
