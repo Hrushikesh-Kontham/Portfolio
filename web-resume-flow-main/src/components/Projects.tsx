@@ -4,12 +4,35 @@ import { ExternalLink, Code, User } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+        {
+      title: "Expense Tracker Web Application",
+      description:
+        "A full-stack expense tracking application with secure authentication, role-based access, admin user control, and monthly budget monitoring.",
+      tech: [
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "BCrypt",
+        "MySQL",
+        "REST API",
+        "Swagger",
+        "Postman"
+      ],
+      liveUrl: "https://personal-expenses-tracker.netlify.app",
+      role: "Full Stack Developer",
+      highlights: [
+        "Role-Based Access (Admin/User)",
+        "JWT Authentication + BCrypt Encryption",
+        "Admin Enable/Disable Users",
+        "Expense CRUD + Budget Tracking"
+      ]
+    },
     {
       title: "Weather App",
       description: "A responsive web application providing real-time weather updates with city-based search functionality. Features dynamic UI updates and accurate weather forecasts.",
       tech: ["HTML5", "CSS3", "JavaScript", "OpenWeatherMap API", "Responsive Design"],
       liveUrl: "https://live-weather-api-app.netlify.app/",
-      role: "Full Stack Developer",
+      role: "Frontend Developer",
       highlights: ["API Integration", "Real-time Data", "Mobile-First Design"]
     },
     {
